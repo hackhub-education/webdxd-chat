@@ -1,0 +1,1 @@
+var socket=io("http://localhost:3000");console.log(),$("form").submit(function(){return socket.emit("chat message",username+": "+$("#m").val()),$("#m").val(""),!1}),socket.on("chat message",function(e){$("#messages").append($("<li>").text(e))});

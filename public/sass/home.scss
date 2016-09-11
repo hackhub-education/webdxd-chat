@@ -1,0 +1,28 @@
+a {
+  color: $primary-color;
+}
+
+p {
+  color: $primary-color;
+}
+
+.msg-alert {
+  color: $alert-color;
+}
+
+.popup-alert {
+  background-color: $alert-color;
+}
+
+.navbar {
+  a {
+    color: $primary-color;
+  }
+  p {
+    font-size: $default-font-size;
+  }
+}
+
+body {
+  background-color: $alert-color;
+}
