@@ -1,8 +1,7 @@
 /**
  * Created by yanhong on 2016-09-10.
  */
-var socket = io('http://localhost:3000');
-console.log();
+var socket = io();
 
 $('form').submit(function(){
     socket.emit('chat message', username + ': ' + $('#m').val());
